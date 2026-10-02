@@ -2,7 +2,7 @@
 name = "tennis"
 version = "0.1.0"
 requires-python = ">=3.9"
-dependencies = ["pandas"]
+dependencies = ["pandas", "xgboost"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
